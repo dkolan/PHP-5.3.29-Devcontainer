@@ -1,0 +1,12 @@
+{
+    "name": "PHP 5.3.29",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "legacy-php",
+    "forwardPorts": [80, "8002:80"],
+	"workspaceFolder": "/var/www/html",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-vscode.php"]
+        }
+    }
+}
